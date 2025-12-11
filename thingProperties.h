@@ -3,9 +3,9 @@
 #include <ArduinoIoTCloud.h>
 #include <Arduino_ConnectionHandler.h>
 
-#define SECRET_DEVICE_KEY "N6thyFtz7FNMPu?EmrOvfHD2r"
-#define SECRET_OPTIONAL_PASS "asdfghjkl"
-#define SECRET_SSID "checkyour"
+#define SECRET_DEVICE_KEY "your secret key feom arduino cloud"
+#define SECRET_OPTIONAL_PASS "your wifi password"
+#define SECRET_SSID "your wifi id"
 
 const char DEVICE_LOGIN_NAME[]  = "1c8fa415-a2a9-4439-bf9b-4732087383e6";
 
