@@ -33,6 +33,8 @@ To run this project, create a **Thing** in the [Arduino IoT Cloud](https://creat
 
 ### 2. Dashboard Configuration
 Once your device is online, set up your Dashboard with the following widgets to match the screenshots:
+<img width="899" height="675" alt="image" src="https://github.com/user-attachments/assets/684faeeb-61cb-4b26-bbfe-170e3a1814ca" />
+
 
 1.  **Gauge:** Link to `kelembapan` (Name: "Kelembapan (%)", Min: 0, Max: 100).
 2.  **Value Display:** Link to `soilstatus` (Name: "Status Tanah").
