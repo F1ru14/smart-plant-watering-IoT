@@ -1,6 +1,6 @@
 # Smart Plant Watering IoT System 🌱💧
 
-A smart IoT-based plant watering system integrated with **Arduino IoT Cloud**. This project allows you to monitor soil moisture levels in real-time, view status updates (e.g., "Kering" or "Basah"), and control a water pump remotely.
+A smart IoT-based plant watering system integrated with **Arduino IoT Cloud**. This project allows you to monitor soil moisture levels in real-time, view status updates, and control a water pump remotely.
 
 It features a dedicated **Auto Mode** that automatically manages watering based on sensor data, ensuring your plants are never thirsty!
 
@@ -11,8 +11,8 @@ It features a dedicated **Auto Mode** that automatically manages watering based 
 - **Visual Feedback:** Dashboard indicators for pump status and historical moisture data.
 
 ## 🛠️ Hardware Requirements
-- **Microcontroller:** Arduino Nano 33 IoT, ESP32, or ESP8266 (NodeMCU/Wemos).
-- **Soil Moisture Sensor:** Capacitive (recommended) or Resistive sensor.
+- **Microcontroller:** ESP32.
+- **Sensor:** Soil Moisture Sensor.
 - **Water Pump:** 5V Submersible mini pump.
 - **Relay Module:** To control the pump.
 - **Power Supply:** USB cable or battery pack.
@@ -42,19 +42,3 @@ Once your device is online, set up your Dashboard with the following widgets to 
 4.  **Switch:** Link to `pompa` (Name: "Switch Pompa").
 5.  **LED:** Link to `pompa` (Name: "Status Pompa") - *Visual indicator of pump activity.*
 6.  **Chart:** Link to `kelembapan` - *To view moisture history over time.*
-
-### 3. Installation
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/F1ru14/smart-plant-watering-IoT.git](https://github.com/F1ru14/smart-plant-watering-IoT.git)
-    ```
-2.  **Open the Project:**
-    -   Open `Var_Smart_Plant_Watering_nov10a.ino` in the Arduino IDE.
-    -   Ensure `thingProperties.h` is in the same folder.
-3.  **Configure Network:**
-    -   Open `thingProperties.h`.
-    -   Enter your Wi-Fi **SSID** and **PASSWORD**.
-4.  **Upload:**
-    -   Connect your board.
-    -   Select the correct Board and Port in Arduino IDE.
-    -   Upload the code.
